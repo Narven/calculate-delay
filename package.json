@@ -4,6 +4,7 @@
   "description": "Calculate Delay",
   "main": "dist/bundle.js",
   "scripts": {
+    "test:ci": "jest",
     "test": "jest --watchAll --coverage",
     "start": "webpack --watch --config=./config/webpack.dev.js"
   },
